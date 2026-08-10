@@ -22,10 +22,10 @@ module "compute" {
 
   instance_machine_type = "e2-small"
   instance_tags         = ["app-server", "iap-ssh"]
-  app_port              = 80   # nginx default
+  app_port              = 80 # nginx default
 
-  min_replicas          = 1
-  max_replicas          = 3
+  min_replicas           = 1
+  max_replicas           = 3
   cpu_target_utilization = 0.6
 
   #startup_script = file("${path.module}/startup.sh")
