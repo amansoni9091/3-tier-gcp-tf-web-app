@@ -14,4 +14,3 @@ provider "google" {
   region  = var.region
 }
 
-# provider.tf
