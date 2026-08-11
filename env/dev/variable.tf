@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "The GCP project ID for dev"
   type        = string
-  
+
 }
 
 variable "region" {
@@ -12,7 +12,7 @@ variable "region" {
 variable "network_name" {
   description = "The name of the GCP network for dev"
   type        = string
-}   
+}
 
 variable "web_subnet_cidr" {
   description = "The CIDR block for the web subnet in dev"

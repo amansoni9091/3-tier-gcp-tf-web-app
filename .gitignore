@@ -6,9 +6,6 @@ terraform.tfstate.backup
 .terraform/
 .crash/
 
-# Local variable files (may contain secrets)
-*.tfvars
-*.tfvars.json
 
 # Environment files and secret configs
 .env
